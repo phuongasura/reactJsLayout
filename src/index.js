@@ -1,14 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import BaiTap from "./components/BaiTap";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/jquery/dist/jquery";
+import "../node_modules/popper.js/dist/popper";
+import "../node_modules/bootstrap/dist/js/bootstrap";
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BaiTap />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
